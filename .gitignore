@@ -1,0 +1,17 @@
+# CLion
+.idea/
+cmake-build-*/
+build/
+
+# Compiled programs
+*.o
+*.out
+*.exe
+
+# Our executable files
+LAB02/memory_demo
+LAB03/leak
+LAB04/vector_demo
+
+# Temporary files
+*.log
