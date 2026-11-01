@@ -1,0 +1,8 @@
+.idea/
+*.o
+*.out
+
+/Assignment/assignment
+/Example1/mpi_timing
+/Example2/serial_timing
+/Example3/memory_errors
