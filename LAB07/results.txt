@@ -1,0 +1,22 @@
+LAB 07 - OpenMP Results
+
+Compiler: GCC 15.2.0
+Flags: -O3 -fopenmp
+
+1. stencil.c (1 thread)
+Init: 0.070277
+Flush: 70.187631
+Stencil: 111.676881
+Total: 181.939756
+
+2. stencil_opt4.c (4 threads)
+Init: 0.013763
+Flush: 64.550184
+Stencil: 69.768321
+Total: 134.351674
+
+3. stencil_opt6.c (4 threads)
+Init: 0.027327
+Flush: 64.826622
+Stencil: 70.890471
+Total: 139.054801
