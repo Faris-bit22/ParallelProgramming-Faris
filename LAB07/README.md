@@ -24,6 +24,12 @@ The second version uses OpenMP to run parts of the code in parallel. It was the 
 
 The third version also uses 4 threads and has additional optimizations to reduce synchronization. However, in my test it was a little slower than opt4.
 
+In stencil_opt4.c, OpenMP uses implicit barriers, but `nowait` removes one of them.
+
+In stencil_opt6.c, explicit barriers are used with `#pragma omp barrier` to synchronize threads.
+
+The serial version does not use OpenMP barriers.
+
 ## 4. Questions
 
 **1. How many threads did your CPU use?**
